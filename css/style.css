@@ -1,0 +1,75 @@
+html {
+    background: url('../assets/background.png') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    color: #E5E5E5;
+}
+
+a {
+    color: #E5E5E5;
+}
+
+table, th, td {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+td {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.bear{color: #030EE3}
+.kaleb{color: #5C19FD}
+.rose{color: #FD69B2}
+.darian{color: #05CFC5}
+.lee{color: #FFEA06}
+.kate{color: #E5803C}
+.addison{color: #ABF536}
+.david{color: #590C19}
+.jeremy{color: #00FC04}
+
+.fa-youtube{color: #FF0000}
+.fa-twitter{color: #1DA1F2}
+.fa-instagram{color: #E1306C}
+.fa-tiktok{color: #000000}
+.fa-discord{color: #7289DA}
+.fa-reddit{color: #FF5700}
+.fa-lastfm{color: #C3000D}
+.fa-twitch{color: #6441A5}
+.fa-github{color: #FAFAFA}
+.fa-deviantart{color: #05CC46}
