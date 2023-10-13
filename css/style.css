@@ -13,32 +13,13 @@ a {
     color: #E5E5E5;
 }
 
-table, th, td {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    table-layout: fixed;
-}
-
-th, td {
-    border: 2px solid white;
-    padding: 10px;
-}
-
-table {
-    border-spacing: 10px;
-}
-
-td {
-    word-wrap: break-word;
-    text-align: center;
-}
-
 .top {
     text-align: center;
     font-size: 1.5em;
     color: white;
 }
+
+
 
 .container {
     display: flex;
@@ -47,6 +28,7 @@ td {
 
 .left {
     flex: 1;
+    margin-left: 50px;
 }
 
 .right {
