@@ -13,7 +13,20 @@ a {
     color: #E5E5E5;
 }
 
+li {
+    margin: 10px;
+}
+
 .center{text-align:center}
+
+.fade-in-text {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}  
 
 .top {
     font-size: 1.5em;
