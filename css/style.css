@@ -47,6 +47,13 @@ li {
     flex: 1;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 .bear{color: #030EE3}
 .kaleb{color: #5C19FD}
 .rose{color: #FD69B2}
